@@ -13,6 +13,15 @@ This project is a real-time temperature and humidity dashboard designed to monit
 *Figure 1: The Arduino IDE warning showing critical memory usage before the fix.*
 
 *   **Optimization:** The system was originally hitting a **92% RAM usage error** on the Arduino Uno due to full frame buffering. I successfully resolved this by switching to **Page Buffer Mode** (`u8g2.firstPage()`), significantly reducing the memory footprint.
+### Source Code Snippet
+To keep RAM usage low, the system uses **Page Buffer Mode**. Instead of storing the entire screen layout in memory, it renders in smaller horizontal pages using a `do...while` loop:
+```cpp
+u8g2.firstPage();
+do {
+  // Rendering logic here
+} while ( u8g2.nextPage() );
+*
+```
 
 ## Components
 *   **Microcontroller:** Arduino Uno Rev3
