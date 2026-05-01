@@ -33,4 +33,11 @@ do {
 *Figure 2: Live dashboard showing temperature and humidity readings.*
 
 ---
-*Next steps: Integrating RGB alerts and buzzer notifications (Phase 2).*
+## Repository Structure
+
+*   **`/src`**: Contains the source code (`.ino` files) for each development phase.
+*   **`/requirements`**: Detailed breakdown of hardware components and software tools required for each phase.
+*   **`/assets`**: Project documentation, including wiring photos and schematics for each phase.
+*   **`README.md`**: Project overview, technical optimizations, and setup instructions.
+ 
+
