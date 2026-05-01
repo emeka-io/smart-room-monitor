@@ -9,7 +9,7 @@ This project is a real-time temperature and humidity dashboard designed to monit
 *   **Communication:** The 1.3" OLED utilizes the **I2C protocol** (SDA/SCL) for a clean, two-wire data interface.
 
 ### Pre-Optimization Error
-![Memory Error Screenshot](assets/low_error.png)
+![Memory Error Screenshot](assets/low_memory.png)
 *The Arduino IDE warning showing critical memory usage before the fix.*
 
 *   **Optimization:** The system was originally hitting a **92% RAM usage error** on the Arduino Uno due to full frame buffering. I successfully resolved this by switching to **Page Buffer Mode** (`u8g2.firstPage()`), significantly reducing the memory footprint.
