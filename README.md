@@ -39,5 +39,8 @@ do {
 *   **`/requirements`**: Detailed breakdown of hardware components and software tools required for each phase.
 *   **`/assets`**: Project documentation, including wiring photos and schematics for each phase.
 *   **`README.md`**: Project overview, technical optimizations, and setup instructions.
- 
+
+ ---
+*Built and documented by Chukwuemeka Ifeanyi | Mechatronics Engineering Student | May 2026*
+
 
