@@ -3,6 +3,9 @@
 This is a temperature and humidity measurement system designed to monitor room environments. It utilizes a **DHT11 sensor** for data acquisition and a **1.3" OLED (SH1106)** for clear, live visualization.
 
 ---
+## Live Demo
+See it in action here: [Link to my X post](https://x.com/emekabuilds_/status/2050583625188429927?s=46)
+
 
 ## The Build
 *   **Refresh Rate:** 2 seconds — specifically optimized to match the physical sampling limits of the DHT11 sensor.
